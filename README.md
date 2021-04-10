@@ -1,6 +1,6 @@
-# iTest
+# Samsung iTest
 
-was bored and "hacked" iTest
+was bored and "hacked" Samsung iTest.
 
 To make this work:
 
