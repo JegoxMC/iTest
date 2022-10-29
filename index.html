@@ -6,6 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Samsung iTest - Compare apples with androids.</title>
+    <script>
+    Object.defineProperty(navigator, 'userAgent', {
+        get: () => {
+	    return "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1";
+	}
+    });	
+    </script>
     <meta name="description" content="Now you can test drive Samsung on your iPhone.">
     <meta name="viewport" content="width=device-width, minimal-ui, user-scalable=no, viewport-fit=cover">
     <meta name="title" content="Samsung iTest - Compare apples with androids.">
@@ -26,14 +33,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900" rel="stylesheet">
     <link rel="stylesheet" href="./css/app.css" defer>
     <script>var host = "";</script>
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M9T387X');</script>
-    <!-- End Google Tag Manager -->
     <script>var GA_ID = "GTM-M9T387X";</script>
 
     <script src="./js/manifest.js" defer></script>
@@ -41,10 +40,6 @@
     <script src="./js/app.js" defer></script>
 </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9T387X"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div class="absolute inset-0 overflow-hidden app" data-component="app">
         <div class="absolute inset-0 pointer-events-auto invisible" data-ref="app-fallback-content" data-track-title="Welcome" data-track-path="/welcome">
           <div class="absolute inset-0">
